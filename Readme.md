@@ -1,13 +1,19 @@
 Some fiddling around with 
 
+## Using it
+You can test it with docker/docker-compose or directly on you mashine.
+After cloning the repo you need to modify mtrix.py with a usable Matrix Account (and change the matrix_server variable accordingly)
+
 ## Using it via Docker-Compose
-
 git clone https://github.com/vorletzter/mtrix/
-
-Modifiy mtrix.py to your needs!
-You need to add an existing Matix-Account and change the Homeserver!
-
+cd mtrix
 docker-compose up
 
-## Using it with Virtuel Environment
+## Runing it on localhost with Virtuel Environment
 
+git clone https://github.com/vorletzter/mtrix/
+cd mtrix/app
+python -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt 
+python mtrix.py
