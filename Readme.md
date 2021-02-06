@@ -6,7 +6,9 @@ After cloning the repo you need to modify mtrix.py with a usable Matrix Account 
 
 ## Using it via Docker-Compose
 git clone https://github.com/vorletzter/mtrix/
+
 cd mtrix
+
 docker-compose up
 
 ## Runing it on localhost with Virtuel Environment
