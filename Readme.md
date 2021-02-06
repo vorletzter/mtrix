@@ -14,8 +14,13 @@ docker-compose up
 ## Runing it on localhost with Virtuel Environment
 
 git clone https://github.com/vorletzter/mtrix/
+
 cd mtrix/app
+
 python -m venv myenv
+
 source myenv/bin/activate
+
 pip install -r requirements.txt 
+
 python mtrix.py
