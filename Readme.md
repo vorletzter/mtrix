@@ -1,4 +1,4 @@
-Some fiddling around with 
+Some fiddling around with https://github.com/azlux/pymumble and https://github.com/matrix-org/matrix-python-sdk
 
 ## Using it
 You can test it with docker/docker-compose or directly on you mashine.
