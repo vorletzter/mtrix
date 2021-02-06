@@ -1,14 +1,13 @@
 Some fiddling around with https://github.com/azlux/pymumble and https://github.com/matrix-org/matrix-python-sdk
 
-## Disclaimer
+# Disclaimer
 All Cats will hate you, if you use this in anything resembling a production environment. 
 **Do not use it for other purposes then testing**
 
-## Using it
-You can test it with docker/docker-compose or directly on you mashine.
+# Using it
 After cloning the repo you need to modify mtrix.py with a usable Matrix Account (and change the matrix_server variable accordingly)
 
-## Using it via Docker-Compose
+## via Docker-Compose
 ```
 git clone https://github.com/vorletzter/mtrix/
 cd mtrix
